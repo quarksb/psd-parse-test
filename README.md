@@ -17,30 +17,9 @@
 ## 使用方法
 
 1. 克隆或下载本项目到本地。
-2. 安装所需的依赖库。
-3. 运行 `test.py` 脚本，传入需要解析的 PSD 文件路径。
+2. 安装所需的依赖库 `pnpm i`。
+3. 运行 `pnpm dev`，传入需要解析的 PSD 文件路径。
 4. 查看解析结果。
-
-## 示例代码
-
-```python
-import psd_parser
-
-# 创建 PSD 解析器实例
-parser = psd_parser.PSDParser()
-
-# 解析 PSD 文件
-parser.parse('path/to/your/psd/file.psd')
-
-# 获取图层信息
-layers = parser.get_layers()
-
-# 提取图像数据
-image_data = parser.get_image_data()
-
-# 进行后续处理或分析
-# ...
-```
 
 ## 注意事项
 
